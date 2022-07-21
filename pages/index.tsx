@@ -92,7 +92,7 @@ const Home: NextPage = () => {
         </div>
         <div className="text-9xl">{mukzzibba[gameUserImage]}</div>
         <div className="text-white font-bold text-xl flex justify-center w-screen items-center">
-          <div className="flex w-full h-max justify-center bg-[#333333] max-w-4xl">
+          <div className="flex w-full h-max justify-center bg-[#333333] max-w-4xl text-4xl">
             <button
               className="w-1/3 border-r h-14"
               onClick={() => onClickUserResult(0)}
