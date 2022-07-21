@@ -1,34 +1,15 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 가위바위보 게임
 
-## Getting Started
+> 누구나 쉽게 하는 가위바위보 게임을 만들어보자
 
-First, run the development server:
+## 사용
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+- next.js
+- typescript
+- tailwind css
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 요구사항
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- ✌✊✋ 이모지가 순서대로 변하는 화면 구성
+- 사용자는 3개의 입력을 가짐(가위, 바위, 보)
+- 하나를 클릭하면 이모지가 멈추며 결과 출력(승리, 무승부, 패배)
